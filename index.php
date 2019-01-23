@@ -14,7 +14,7 @@
   Broj redaka :  <input type="number" name="redak"><br>
   Broj stupaca : <input type="number" name="stupac"><br>
 
-    <input type="submit" name="potvrdi">
+    <input type="submit" name="potvrdi" value="KREIRAJ TABLICU">
 
 
 
