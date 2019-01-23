@@ -53,6 +53,24 @@ function  nizMat($x, $y, &$a)
 }
 ?>
 
+<table>
+    <?php
+$x = $_POST['redak'];
+$y = $_POST['stupac'];
+nizMat($x, $y, $a);
+for($i = 0; $i < $x; $i++){
+    echo "<tr>";
+    for($j = 0; $j < $y;$j++){
+        echo "<td>";
+        echo $a[$i][$j];
+echo "</td>";
+}
+echo "</tr>";
+
+}
+
+?>
+</table>
 
 
 </body>
