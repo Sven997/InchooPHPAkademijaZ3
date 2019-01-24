@@ -1,6 +1,7 @@
 
 .container {
-    width: 1200px;
+    width: 1100px;
+
     margin: 0 auto;
     padding: 40px 0;
     display: flex;
@@ -9,7 +10,7 @@
 }
 .container-f input {
     display: block ;
-    width: 100%;
+    width: 60%;
     background:#535355 ;
     color: #fff;
     margin-bottom: 10px;
@@ -24,20 +25,21 @@
 }
 
 .container-f input[type=submit] {
-    width: 45%;
+    width: 100%;
     background: #77ac37;
     margin-top: 10px;
     border: 1px solid #77ac37;
 }
-
-
-
 
 .output {
     display: flex;
     align-items: start;
     justify-content: center;
     width: 50%;
+}
+.output table{
+    width: 40%;
+    height: 40%;
 }
 .output td {
     border: 1px solid #fff;
@@ -46,4 +48,7 @@
     height: 25px;
     color: #fff;
     text-align: center;
+}
+body {
+    background: #3F3F41;
 }

@@ -63,7 +63,6 @@ function  nizMat($x, $y, &$a)
     </div>
 
     <div class="output">
-
 <table>
     <?php
 
